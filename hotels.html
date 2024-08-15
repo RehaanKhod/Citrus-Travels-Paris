@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotels</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <link rel="stylesheet" href = "styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div id = "header">
+        <img src="logo3.png" alt="CitrusTravels logo" id="logo">
+        <h1  id="title" ><a href="#"></a>Citrus Travels Paris</h1>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="hotels.html">Hotels</a></li>
+                    <li><a href="entertainment.html">Entertainment</a>
+                    <li><a href="booking.html">Bookings</a></li>
+                    <li><a href="contact.html">Contact Us</a>
+                </ul>
+            </nav>
+        </header>
+    </div>
+      <div class="BrowseHotels">
+        <h2 class="BrowseHotels">Browse Hotels</h2>
+      </div>
+      <div class="sort-container">
+        <label for="sort-ratings">Sort by:</label>
+        <select id="sort-by" >
+            <option value="featured">Featured</option>
+            <option value="5">5 Star</option>
+            <option value="4">4 Star</option>
+            <option value="3">3 Star</option>
+            <option value="2">2 Star</option>
+            <option value="1">1 Star</option>       
+        </select>
+    </div>
+      <div class="hotel-container">
+        <!-- Hotel 1 -->
+        <div class="hotel" id="hyatt-regency-paris-étoile">
+            <h2>Hyatt Regency Paris Étoile</h2>
+            <p class="description">A modern hotel with panoramic views of Paris, located in the business district and providing easy access to various parts of the city.</p>
+            <p class="distance">Approximately 7 km from the Olympic Village in Saint-Denis and about 4 km from the Grand Palais.</p>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star  "></span>
+            <div class="slider">
+                <div class="list">
+                    <div class="item">
+                        <img src="https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2019/07/24/1253/Hyatt-Regency-Paris-Etoile-P724-Windo-Skybar.jpg/Hyatt-Regency-Paris-Etoile-P724-Windo-Skybar.16x9.jpg" alt=">Hyatt Regency Paris Étoile">
+                    </div>
+                    <div class="item">
+                        <img src="https://www.hyattrestaurants.com/uploaded/hotels/cover_hotel-1565103097.jpg" alt=">Hyatt Regency Paris Étoile">
+                    </div>
+                    <div class="item">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/6c/62/81/caption.jpg?w=700&h=-1&s=1" alt=">Hyatt Regency Paris Étoile">
+                    </div>
+                    <div class="item">
+                        <img src="https://www.hotelscombined.com/rimg/himg/c9/4d/92/ice-33392-107147092-232666.jpg?width=1366&height=768&crop=true" alt=">Hyatt Regency Paris Étoile">
+                    </div>
+                    <div class="item">
+                        <img src="https://www.best-paris-hotels.org/data/Imgs/OriginalPhoto/15573/1557303/1557303337/hyatt-regency-etoile-hotel-paris-img-92.JPEG" alt=">Hyatt Regency Paris Étoile">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="prev">&lt;</button>
+                    <button class="next">&gt;</button>
+                </div>
+                <ul class="dots">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>                  
+                </ul>
+            </div>
+              <button class="book-now" onclick="bookNow('Hyatt Regency Paris Étoile')">Book Now</button>
+        </div>
+        <!-- Hotel 2 -->
+        <div class="hotel" id="hotel-lutetia">
+            <h2>Hôtel Lutetia</h2>
+            <p class="description">A historic and elegant hotel with a classic Parisian charm, offering luxury and comfort.</p>
+            <p class="distance">Approximately 8 km from the Olympic Village.</p>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star  checked"></span>
+            <div class="slider">
+                <div class="list">
+                    <div class="item">
+                        <img src="https://henri.fr/cdn-cgi/image/width=526,dpr=2.625,fit=cover,format=auto,height=394/wp-content/uploads/2023/01/Hotel-Lutetia-Suite-Presidentielle-chambre.jpg" alt="Hôtel Lutetia">                  
+                    </div>
+                    <div class="item">
+                        <img src="https://i.ytimg.com/vi/mzWok01woaE/maxresdefault.jpg" alt="Hôtel Lutetia">
+                    </div>
+                    <div class="item">
+                        <img src="https://media.cntraveler.com/photos/5c95375920c9d4b62e3a28fc/16:9/w_2560,c_limit/Hotel-Lutetia_2019_Hotel-Lutetia---Akasha-Spa-pool-raspail-view.jpg" alt="Hôtel Lutetia">
+                    </div>
+                    <div class="item">
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/343341356.jpg?k=f028b4c863f27e415734b62e4548a02780ce92e4381249fe15ca8810b50e878b&o=&hp=1" alt="Hôtel Lutetia">
+                    </div>
+                    <div class="item">
+                        <img src="https://secure.s.forbestravelguide.com/img/properties/hotel-lutetia/hotel-lutetia-junior-bedroom.jpg" alt="Hôtel Lutetia">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="prev">&lt;</button>
+                    <button class="next">&gt;</button>
+                </div>
+                <ul class="dots">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>   
+                </ul>
+            </div>
+            <button class="book-now"  onclick="bookNow('Hotel Example 2')">Book Now</button>
+        </div>
+        <!-- Hotel 3 -->
+        <div class="hotel" id="bulgari-hotel-paris">
+            <h2>Bulgari Hotel Paris</h2>
+            <p class="description">A stylish and elegant hotel offering luxury accommodations with Italian flair in the heart of Paris.</p>
+            <p class="distance">Approximately 9 km from the Olympic Village.
+            </p>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <div class="slider">
+                <div class="list">
+                    <div class="item">
+                        <img src="https://media.architecturaldigest.com/photos/61a7c40b74736a1df4243e83/16:9/w_2560%2Cc_limit/Penthouse%2520(6).jpg" alt=">Cheval Blanc Paris">
+                    </div>
+                    <div class="item">
+                        <img src="https://hips.hearstapps.com/hmg-prod/images/bh-paris-bulgari-suite-living-room-1638983190.jpg" alt=">Cheval Blanc Paris">
+                    </div>
+                    <div class="item">
+                        <img src="https://www.bulgarihotels.com/.imaging/bhr-wide-small-jpg/dam/PARIS/OPENING/BH%20Paris%20-%20penthouse.zip/BH-Paris---penthouse/MOD/BH-Paris-Penthouse-Dining-Room-Terrace.jpg/jcr%3Acontent" alt=">Hyatt Regency Paris Étoile">
+                    </div>
+                    <div class="item">
+                        <img src="https://robbreport.com/wp-content/uploads/2021/12/BH-Paris-Penthouse-Living-Room2.jpg" alt=">Cheval Blanc Paris">
+                    </div>
+                    <div class="item">
+                        <img src="https://hips.hearstapps.com/hmg-prod/images/bh-paris-bar-2-1638982602.jpg" alt=">Cheval Blanc Paris">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="prev">&lt;</button>
+                    <button class="next">&gt;</button>
+                </div>
+                <ul class="dots">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>                    
+                </ul>
+            </div>
+            <button class="book-now">Book Now</button>
+        </div>
+        <!-- Hotel 4 -->
+        <div class="hotel" id="cheval-blanc-paris">
+            <h2>Cheval Blanc Paris</h2>
+            <p class="description">A luxurious hotel offering an exclusive experience with stunning views of the Seine and refined Parisian elegance.</p>
+            <p class="distance">Approximately 8 km from the Olympic Village.</p>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star  "></span>
+            <div class="slider">
+                <div class="list">
+                    <div class="item">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/bd/94/13/la-deluxe.jpg?w=700&h=-1&s=1
+                        " alt=">Hyatt Regency Paris Étoile">
+                    </div>
+                    <div class="item">
+                        <img src="https://www.theworlds50best.com/hotels/filestore/jpg/W50BH23_PROFILE_Cheval%20Blanc%20room.jpg
+                        " alt=">Hyatt Regency Paris Étoile">
+                    </div>
+                    <div class="item">
+                        <img src="https://www.theluxeinsider.com/wp-content/uploads/2021/09/the-luxe-insider-cheval-blanc-paris-20210912_110232.jpg" alt=">Hyatt Regency Paris Étoile">
+                    </div>
+                    <div class="item">
+                        <img src="https://static.hurlinghamtravel.co.uk/blogphotos/552/cheval-blanc-paris-suite-seine-vincent-leroux-aout-2023.jpg" alt=">Hyatt Regency Paris Étoile">
+                    </div>
+                    <div class="item">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/8f/c9/e0/junior-suite-seine-balcon.jpg?w=700&h=-1&s=1" alt=">Hyatt Regency Paris Étoile">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="prev">&lt;</button>
+                    <button class="next">&gt;</button>
+                </div>
+                <ul class="dots">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <button class="book-now">Book Now</button>
+        </div>
+         <!--Hotel 5-->
+         <div class="hotel" id="hotel-peyris-opera">
+            <h2>Hotel Peyris Opera</h2>
+            <p class="description">A charming boutique hotel offering a blend of classic and modern comforts, situated in a vibrant area of Paris.</p>
+            <p class="distance"> Approximately 9 km from the Olympic Village.</p>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star  checked"></span>
+            <span class="fa fa-star  checked"></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star  "></span>
+            <div class="slider">
+                <div class="list">
+                    <div class="item">
+                        <img src="https://www.hotel-peyris.com/files-sbbasic/sr_hotel_peyris_com/logo/peyris.jpg" alt="Hotel Peyris Opera">
+                    </div>
+                    <div class="item">
+                        <img src="https://www.hotel-peyris.com/files-sbbasic/sr_hotel_peyris_com/salle_pdj_peyris_2021_photo_2.jpg?w=1200&h=627" alt="Hotel Peyris Opera">
+                    </div>
+                    <div class="item">
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/17867965.jpg?k=7ec36a4fd368f35e34ddc0124001c91f32b03d8695bf44e9c1a3b873fb2e7d4a&o=&hp=1" alt="Hotel Peyris Opera">
+                    </div>
+                    <div class="item">
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/40942381.jpg?k=925c9ff0c0b10fb97317a099d0b5f44114576996c67efa49b67f68c89785af0e&o=&hp=1" alt="Hotel Peyris Opera">
+                    </div>
+                    <div class="item">
+                        <img src="https://peyris-opera.parishotelsweb.com/data/Photos/OriginalPhoto/2112/211295/211295771/peyris-opera-hotel-paris-photo-21.JPEG" alt="Hotel Peyris Opera">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="prev">&lt;</button>
+                    <button class="next">&gt;</button>
+                </div>
+                <ul class="dots">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <button class="book-now">Book Now</button>
+        </div>
+        <!-- Hotel 6 -->
+        <div class="hotel" id="four-seasons-hotel-george-v">
+            <h2>Four Seasons Hotel George V</h2>
+            <p class="description"> A legendary Parisian hotel known for its opulence, exceptional service, and stunning location near the Champs-Élysées.</p>
+            <p class="distance"> Approximately 7 km from the Olympic Village.</p>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <div class="slider">
+                <div class="list">
+                    <div class="item">
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/232783611.jpg?k=70a6c58744856c165976306d8e3be5ec4c29435ea93147f644df677ed512f6e5&o=&hp=1" alt=">Four Seasons Hotel George V">
+                    </div>
+                    <div class="item">
+                        <img src="https://media.cntraveler.com/photos/61e12ed190b4807bacc3afd3/16:9/w_2560,c_limit/Four-Seasons-Hotel-George-V,-Paris.jpg" alt=">Four Seasons Hotel George V">
+                    </div>
+                    <div class="item">
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/72056642.jpg?k=373df2db691cf7f0e5627a8d88de8995092b6dac469000f20430544d8922a04e&o=&hp=1s" alt=">Four Seasons Hotel George V">
+                    </div>
+                    <div class="item">
+                        <img src="https://media.cntraveller.com/photos/61b9d4e012c2490bd42fed18/4:3/w_3256,h_2442,c_limit/Eiffel-Tower-Suite-146-four%20seasons%20george-nov21--pr.jpegs" alt=">Four Seasons Hotel George V">
+                    </div>
+                    <div class="item">
+                        <img src="https://secure.s.forbestravelguide.com/img/properties/four-seasons-hotel-george-v-paris/four-seasons-hotel-george-v-paris-superior-room.jpg" alt=">Four Seasons Hotel George V">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="prev">&lt;</button>
+                    <button class="next">&gt;</button>
+                </div>
+                <ul class="dots">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>            
+                </ul>
+            </div>
+            <button class="book-now">Book Now</button>
+        </div>
+        <!-- Hotel 7 -->
+        <div class="hotel" id="shangri-la-paris">
+            <h2>Shangri-La Paris</h2>
+            <p class="description">A luxurious hotel housed in a historic building with breathtaking views of the Eiffel Tower, offering a blend of Asian hospitality and Parisian charm.</p>
+            <p class="distance">Approximately 8 km from the Olympic Village.</p>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <div class="slider">
+                <div class="list">
+                    <div class="item">
+                        <img src="https://media.cntraveler.com/photos/580678b96f39a9b41381a235/16:9/w_2560%2Cc_limit/Dining1-ShangriLaHotelParis-ParisFrance-CRHotel.jpg" alt=">Shangri-La Paris">
+                    </div>
+                    <div class="item">
+                        <img src="https://parisjetaime.com/data/layout_image/30121_Shangri-La-Paris-L'Appartement-Prince-Bonaparte--630x405--%C2%A9-Shangri-La-Paris.jpg" alt=">Shangri-La Paris">
+                    </div>
+                    <div class="item">
+                        <img src="https://images.trvl-media.com/lodging/5000000/4030000/4028700/4028607/b6168de4.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill" alt=">Shangri-La Paris">
+                    </div>
+                    <div class="item">
+                        <img src="https://media.cntraveler.com/photos/580678b9fefb7fe774d6422e/16:9/w_2560%2Cc_limit/Bedroom1-ShangriLaHotelParis-ParisFrance-CRHotel.jpg" alt=">Shangri-La Paris">
+                    </div>
+                    <div class="item">
+                        <img src="https://media.timeout.com/images/106012483/image.jpg" alt=">Shangri-La Paris">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="prev">&lt;</button>
+                    <button class="next">&gt;</button>
+                </div>
+                <ul class="dots">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>   
+                </ul>
+            </div>
+            <button class="book-now">Book Now</button>
+        </div>
+        <!--Hotel 8-->
+        <div class="hotel" id="la-reserve">
+            <h2>La Réserve</h2>
+            <p class="description">A sophisticated hotel offering a discreet and luxurious experience with private suites and a focus on personalized service.</p>
+            <p class="distance">Approximately 8 km from the Olympic Village.</p>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <div class="slider">
+                <div class="list">
+                    <div class="item">
+                        <img src="https://www.hotelscombined.com/rimg/himg/cb/8b/9f/leonardo-85500910-La-Reserve-Paris-Salin-Louis-XV_O-477902.jpg?width=1366&height=768&crop=true" alt="La Réserve">
+                    </div>
+                    <div class="item">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/5d/b2/bf/la-reserve.jpg?w=700&h=-1&s=1" alt="La Réserve">
+                    </div>
+                    <div class="item">
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/477533412.jpg?k=49d1efcef7a537965e823ec5e1a66d8b8b9de9d2aa33116584402fc81b5159d0&o=&hp=1" alt="La Réserve">
+                    </div>
+                    <div class="item">
+                        <img src="https://www.myboutiquehotel.com/photos/113694/la-reserve-paris-hotel-spa-paris-114-1702654729-1110x700.jpg" alt=">La Réserve">
+                    </div>
+                    <div class="item">
+                        <img src="https://www.theworlds50best.com/hotels/filestore/jpg/W50BH23_PROFILE_La%20Reserve%20lobby.jpg" alt="La Réserve">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="prev">&lt;</button>
+                    <button class="next">&gt;</button>
+                </div>
+                <ul class="dots">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>       
+                </ul>
+            </div>
+            <button class="book-now">Book Now</button>
+        </div>
+        <!--Hotel 9-->
+        <div class="hotel" id="grand-hotel-nouvel-opera">
+            <h2>Grand Hôtel Nouvel Opéra</h2>
+            <p class="description">A comfortable and budget-friendly hotel located in a lively neighborhood, offering easy access to various attractions.
+            </p>
+            <p class="distance">Approximately 10 km from the Olympic Village.</p>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star  "></span>
+            <span class="fa fa-star  "></span>
+            <div class="slider">
+                <div class="list">
+                    <div class="item">
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/318304088.jpg?k=d3f74aff21758b3ca5bc1791cbf27942122df2cd27053a071158fdd8165e289a&o=&hp=1" alt="Grand Hôtel Nouvel Opéra">
+                    </div>
+                    <div class="item">
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/318436137.jpg?k=74e951327c5641d8593fd67e042292ebfc441e418625ce8b3f2fa24a2847010c&o=&hp=1" alt="Grand Hôtel Nouvel Opéra">
+                    </div>
+                    <div class="item">
+                        <img src="https://assets.hotelaparis.com/uploads/pictures/000/019/070/27869923__1_.jpg" alt="Grand Hôtel Nouvel Opéra">
+                    </div>
+                    <div class="item">
+                        <img src="https://www.grand-hotel-nouvel-opera.com/wp-content/uploads/2019/11/grand-hotel-nouvel-opera-3-1024x683.jpg" alt=">Grand Hôtel Nouvel Opéra">
+                    </div>
+                    <div class="item">
+                        <img src="https://www.grand-hotel-nouvel-opera.com/wp-content/uploads/2019/11/grand-hotel-nouvel-opera-1-1024x683.jpg" alt="Grand Hôtel Nouvel Opéra">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="prev">&lt;</button>
+                    <button class="next">&gt;</button>
+                </div>
+                <ul class="dots">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>  
+                </ul>
+            </div>
+            <button class="book-now">Book Now</button>
+        </div>
+        <!--Hotel 10-->
+        <div class="hotel" id="ibis-budget-paris-porte-de-montmartre">
+            <h2>ibis budget Paris Porte de Montmartre</h2>
+            <p class="description">An affordable and practical hotel offering basic accommodations in the Montmartre area, perfect for budget-conscious travelers.</p>
+            <p class="distance">Approximately 9 km from the Olympic Village.</p>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star  "></span>
+            <span class="fa fa-star  "></span>
+            <span class="fa fa-star  "></span>
+            <div class="slider">
+                <div class="list">
+                    <div class="item">
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/185806037.jpg?k=aa216153882941fa1ca50484d476ecfdee9ea8b22f2c140b5afcecd505f7f9af&o=&hp=1" alt="ibis budget Paris Porte de Montmartre">
+                    </div>
+                    <div class="item">
+                        <img src="https://www.ahstatic.com/photos/2597_rotrc_00_p_1024x768.jpg" alt="ibis budget Paris Porte de Montmartre">
+                    </div>
+                    <div class="item">
+                        <img src="https://www.ahstatic.com/photos/2597_rotwc_00_p_1024x768.jpg" alt="ibis budget Paris Porte de Montmartre">
+                    </div>
+                    <div class="item">
+                        <img src="https://www.ahstatic.com/photos/7941_ho_00_p_1024x768.jpg" alt="ibis budget Paris Porte de Montmartre">
+                    </div>
+                    <div class="item">
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/504664819.jpg?k=30896cef63fa31bfc77d23eef75506fd6f3b2c62e3f02f9551de9f4a75578151&o=&hp=1" alt="ibis budget Paris Porte de Montmartre">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="prev">&lt;</button>
+                    <button class="next">&gt;</button>
+                </div>
+                <ul class="dots">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>  
+                </ul>
+            </div>
+            <button class="book-now">Book Now</button>
+        </div>
+        <!--Hotel 11-->
+        <div class="hotel" id="hotel-phenix">
+            <h2>Hôtel Phénix</h2>
+            <p class="description">A modest and cozy hotel offering simple accommodations, located in a vibrant area close to Montmartre.</p>
+            <p class="distance">Approximately 9 km from the Olympic Village.</p>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star  "></span>
+            <span class="fa fa-star  "></span>
+            <span class="fa fa-star  "></span>
+            <div class="slider">
+                <div class="list">
+                    <div class="item">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/8d/09/45/hotel-foyer-photos-from.jpg?w=700&h=-1&s=1" alt="Hôtel Phénix">
+                    </div>
+                    <div class="item">
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/457059658.jpg?k=089e2c83131d87b3be408a84d2c62b4b46fad14b643514518599b28314f008f4&o=&hp=1">
+                    </div>
+                    <div class="item">
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/457059855.jpg?k=a696cd0acceb414c9ad0c51719f041cfe1c53f8ee3a0071f1b5c35e56c919475&o=&hp=1" alt="Hôtel Phénix">
+                    </div>
+                    <div class="item">
+                        <img src="https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_600,q_auto,w_600//hotelier-images/52/a5/98c9476994b255059505008cb631a7dead07d12a7310c74cba95589c3645.jpeg" alt="Hôtel Phénix">
+                    </div>
+                    <div class="item">
+                        <img src="https://foto.hrsstatic.com/fotos/0/2/600/430/80/000000/http%3A%2F%2Ffoto-origin.hrsstatic.com%2Ffoto%2Fdms%2F207550%2FEAN%2Faa16eaab_z.jpg/12274f586526f56fce4ffb713100d7b9/500%2C281/6/Hotel_Phenix-Paris-Restaurant-2-207550.jpg" alt="Hôtel Phénix">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="prev">&lt;</button>
+                    <button class="next">&gt;</button>
+                </div>
+                <ul class="dots">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <button class="book-now">Book Now</button>
+        </div>
+        <!--Hotel 12-->
+        <div class="hotel" id="hotel-f1">
+            <h2>Hôtel F1</h2>
+            <p class="description">A budget hotel offering no-frills accommodations, ideal for travelers looking for a simple and affordable stay.</p>
+            <p class="distance">Approximately 11 km from the Olympic Village.</p>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star  "></span>
+            <span class="fa fa-star  "></span>
+            <span class="fa fa-star  "></span>
+            <span class="fa fa-star  "></span>
+            <div class="slider">
+                <div class="list">
+                    <div class="item">
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/204008037.jpg?k=3170e6592983f20c2cd30fb63e4ae243df918b59efad8b7050fe3a90ff4c6b63&o=&hp=1" alt="Hôtel F1">
+                    </div>
+                    <div class="item">
+                        <img src="https://www.ahstatic.com/photos/3072_ros2d6_00_p_1024x768.jpg" alt="Hôtel F1">
+                    </div>
+                    <div class="item">
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/204008122.jpg?k=03127c721c3e942c8d85f632d67b376e47f29fc8fe6034a9d30a45e6cd298be4&o=&hp=1" alt="Hôtel F1">
+                    </div>
+                    <div class="item">
+                        <img src="https://www.ahstatic.com/photos/3072_ho_00_p_1024x768.jpg" alt="Hôtel F1">
+                    </div>
+                    <div class="item">
+                        <img src="https://www.ahstatic.com/photos/3072_rocbr_00_p_1024x768.jpg" alt="Hôtel F1">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="prev">&lt;</button>
+                    <button class="next">&gt;</button>
+                </div>
+                <ul class="dots">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <button class="book-now">Book Now</button>
+        </div>
+    </div>
+    <footer>
+        <div class="footercontainer">
+            <div class="socialicons">
+                <a href="https://www.instagram.com/citrus.travels/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="footernav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="hotels.html">Hotels</a></li>
+                    <li><a href="entertainment.html">Entertainment</a>
+                    <li><a href="booking.html">Bookings</a></li>
+                    <li><a href="contact.html">Contact Us</a>
+                </ul>
+            </div>
+        </div>
+        <div class="footerbottom">
+            <p>Copyright &copy; 2024 Created and Deisgned by <span class="designer">Rehaan Khodabocus And Dhruv Kissoon</span></p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href = "styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div id = "header">
+        <img src="logo3.png" alt="CitrusTravels logo" id="logo">
+        <h1  id="title" ><a href="#"></a>Citrus Travels Paris</h1>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="hotels.html">Hotels</a></li>
+                    <li><a href="entertainment.html">Entertainment</a>
+                    <li><a href="booking.html">Bookings</a></li>
+                    <li><a href="contact.html">Contact Us</a>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST"  class ="contact-left">
+            <div class="contact-left-title">
+                <h2>Get in touch</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="4d3b6043-7d41-46f2-928d-223af40a2d9c">
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+            <button type="submit">Submit
+                <span class="material-symbols-outlined">send</span>
+            </button>
+        </form>
+        <div class="contact-right">
+            <img src="logo3.png" alt="">
+        </div>
+    </div>
+    <h1 class="visit-us">Visit Us</h1>
+   <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.0406884507643!2d2.348655376986075!3d48.85743450077295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671e10da7ec03%3A0x3b06ea0c90fc2cb3!2sWhite%20Umbrella%20Tours%20Paris!5e0!3m2!1sen!2smu!4v1723667208931!5m2!1sen!2smu" width="1500" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div>
+    <footer>
+        <div class="footercontainer">
+            <div class="socialicons">
+                <a href="https://www.instagram.com/citrus.travels/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="footernav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="hotels.html">Hotels</a></li>
+                    <li><a href="entertainment.html">Entertainment</a>
+                    <li><a href="booking.html">Bookings</a></li>
+                    <li><a href="contact.html">Contact Us</a>
+                </ul>
+            </div>
+        </div>
+        <div class="footerbottom">
+            <p>Copyright &copy; 2024 Created and Deisgned by <span class="designer">Rehaan And Dhruv</span></p>
+        </div>
+    </footer>
+</body>
+</html>
